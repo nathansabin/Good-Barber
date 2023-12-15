@@ -1,0 +1,15 @@
+.header-format {
+    width: 100%;
+    height: 90px;
+    background-color: black;
+}
+
+.header-content {
+    width: 80%;
+    height: 100%;
+}
+
+h1 {
+    color: white;
+    font-weight: 500;
+}
