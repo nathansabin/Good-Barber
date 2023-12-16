@@ -1,15 +1,27 @@
 .header-format {
     width: 100%;
-    height: 90px;
+    height: 80px;
     background-color: black;
+    color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a box shadow if needed */
+    padding: 20px;
 }
 
 .header-content {
+    display: flex;
+    position: relative;
+    margin: 0 auto;
     width: 80%;
     height: 100%;
 }
 
-h1 {
-    color: white;
-    font-weight: 500;
+.title {
+    position: absolute;
+    bottom: 0;
+    margin: 0;
+    margin-left: 85px;
+}
+
+.logo {
+
 }
