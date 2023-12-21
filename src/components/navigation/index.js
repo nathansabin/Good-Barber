@@ -16,8 +16,8 @@ function Navigation() {
             </svg>
             </button>
             {openMenu && 
-                <div>
-                    <ui>
+                <div className='sidebar'>
+                    <ui className='sidebar-container'>
                         <li>Home</li>
                         <li>About Us</li>
                         <li>Contact</li>
