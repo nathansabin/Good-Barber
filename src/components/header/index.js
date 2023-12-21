@@ -7,7 +7,7 @@ function Header() {
     return (
         <header className='header-format'>
             <div className='header-content'>
-                <img src={goodbarber} alt="Good Barber" />
+                <img className='logo' src={goodbarber} alt="Good Barber" />
                 <h1 className='title'>The Good Barber</h1>
                 <Navigation />
             </div>
