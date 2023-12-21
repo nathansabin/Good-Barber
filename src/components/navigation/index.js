@@ -18,9 +18,9 @@ function Navigation() {
             {openMenu && 
                 <div className='sidebar'>
                     <ui className='sidebar-container'>
-                        <li>Home</li>
-                        <li>About Us</li>
-                        <li>Contact</li>
+                        <a href='/'><li>Home</li></a>
+                        <a href='/about'><li>About Us</li></a>
+                        <a href='/contact'><li>Contact</li></a>
                     </ui>
                 </div>
                 }

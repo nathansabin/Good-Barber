@@ -27,6 +27,11 @@
     margin-top: 3rem;
 }
 
-.sidebar-container li:hover {
+.sidebar-container a {
+    color: white;
+    text-decoration: none;
+}
+
+.sidebar-container a li:hover {
     color: grey;
 }
