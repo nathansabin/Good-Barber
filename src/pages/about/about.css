@@ -1,5 +1,20 @@
 .about-container {
     width: 75%;
-    margin: auto auto;
-    line-height: 1.5;
+    margin: 0 auto;
+    line-height: 2;
 }
+
+.about-block {
+    position: relative;
+}
+
+.about-video {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    display: block;
+}
+.about-text {
+    color: #222222
+}
+
