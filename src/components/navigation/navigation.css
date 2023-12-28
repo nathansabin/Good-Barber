@@ -35,3 +35,22 @@
 .sidebar-container a li:hover {
     color: grey;
 }
+
+.on-page {
+    animation-name: sidebar-scroll; 
+    animation-duration: 500ms;
+}
+
+.off-page {
+    animation: sidebar-remove 500ms;
+}
+
+@keyframes sidebar-scroll {
+    0% {left: -180px}
+    100% { left:0; }
+}
+
+@keyframes sidebar-remove {
+    0% { left: 0; }
+    100% { left: -180px; }
+}
