@@ -16,6 +16,7 @@
     position: fixed;
     top: 0;
     left: 0;
+    z-index: 5;
 }
 
 .sidebar-container {
@@ -30,6 +31,7 @@
 .sidebar-container a {
     color: white;
     text-decoration: none;
+    display: block;
 }
 
 .sidebar-container a li:hover {

@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
+import React, { useState} from 'react';
 import './navigation.css';
 
 function Navigation() {
-    const [ openMenu, setOpenMenu] = useState(true);
+    const [ openMenu, setOpenMenu] = useState(false);
 
     const changeMenu = () => {
         setOpenMenu(!openMenu);
