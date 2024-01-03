@@ -1,0 +1,43 @@
+.services-format { 
+    width: 80%;
+    margin: 3rem auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.service {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.service:nth-child(even) {
+    flex-direction: row-reverse;
+} 
+
+.service-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.service-header {
+    padding: 0;
+    margin: 0;
+    font-weight: 800;
+}
+
+.service-paragraph {
+    padding: 0;
+    margin: 0;
+    font: #222222;
+    font-weight: lighter;
+    line-height: 2.0;
+}
+
+.service-image {
+    width: 50px;
+    height: 50px;
+}
